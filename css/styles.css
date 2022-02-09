@@ -171,6 +171,13 @@ img {
   color: var(--accent-text-color);
 }
 
+/* секция */
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 /* Герой */
 .hero {
   background-color: var(--hero-bcg-color);
@@ -236,10 +243,6 @@ img {
 }
 
 /* общее для наша команда и чем мы занимаемся */
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
 
 .title {
   display: block;
@@ -345,6 +348,7 @@ img {
 .filter {
   display: flex;
   justify-content: center;
+  margin-bottom: 50px;
 }
 
 .filter-btn:not(:last-child) {
@@ -361,9 +365,10 @@ img {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
-  margin-bottom: 50px;
+
   border-radius: 4px;
   border-color: transparent;
+  padding: 6px 22px;
 }
 
 .btn:hover,
