@@ -298,6 +298,7 @@ img {
   line-height: 1.88;
 
   text-align: center;
+  margin-top: 10px;
 }
 
 .team-card-footer {
@@ -314,7 +315,6 @@ img {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.17;
-  margin-bottom: 20px;
 }
 
 .logo-accent {
@@ -334,7 +334,14 @@ img {
 
 .footer-contact {
   color: var(--additional-color);
+}
+
+.footer-address-point {
   margin-top: 9px;
+}
+
+.footer-address-go {
+  margin-top: 20px;
 }
 
 .footer {
@@ -414,6 +421,7 @@ img {
   color: var(--secondary-text-color);
   font-size: 16px;
   line-height: 1.88;
+  margin-top: 4px;
 }
 
 .visuallyhidden:not(:focus):not(:active) {
